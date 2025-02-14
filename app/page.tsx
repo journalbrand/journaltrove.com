@@ -13,7 +13,7 @@ export default function Home() {
               —Discover JournalTrove
             </h1>
             <p className="body-text mb-8">
-              A decentralized journaling platform that seamlessly integrates AI transcription, 
+              A decentralized journaling platform that seamlessly integrates voice transcription, 
               iOS Journal API, and secure peer-to-peer sharing—completely on your terms.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -75,8 +75,8 @@ export default function Home() {
               <h3 className="heading-3 mb-3 text-brand-primary">JournalBridge</h3>
               <ul className="space-y-2">
                 <li className="body-text">• No central servers</li>
-                <li className="body-text">• Fully controlled by you</li>
-                <li className="body-text">• Encrypted & secure transmissions</li>
+                <li className="body-text">• Optional send to trusted contacts</li>
+                <li className="body-text">• Device Encrypted transmissions</li>
               </ul>
             </div>
 
@@ -110,11 +110,11 @@ export default function Home() {
               <div className="mb-4 inline-block p-2 bg-brand-primary/10 rounded-lg">
                 <SparklesIcon className="h-6 w-6 text-brand-primary" />
               </div>
-              <h3 className="heading-3 mb-3 text-brand-primary">Smart Summarization</h3>
+              <h3 className="heading-3 mb-3 text-brand-primary">Auto Summary</h3>
               <ul className="space-y-2">
-                <li className="body-text">• Private on-device audio transcription</li>
-                <li className="body-text">• Search through voice & text entries</li>
-                <li className="body-text">• Local processing with your device's hardware</li>
+                <li className="body-text">• Private on-device summarization</li>
+                <li className="body-text">• Search voice & text entries</li>
+                <li className="body-text">• Local processing on device</li>
               </ul>
             </div>
           </div>
@@ -135,8 +135,8 @@ export default function Home() {
               </div>
               <h3 className="heading-3 mb-3">Download & Install</h3>
               <ul className="space-y-2">
-                <li className="body-text">• Mobile app for on-the-go journaling</li>
-                <li className="body-text">• Desktop app for P2P capabilities</li>
+                <li className="body-text">• journaling anywhere on iOS</li>
+                <li className="body-text">• Backup and secure share on desktop</li>
               </ul>
             </div>
             
@@ -172,7 +172,7 @@ export default function Home() {
               <ul className="space-y-2">
                 <li className="body-text">• Voice or text entries</li>
                 <li className="body-text">• Everything stays local</li>
-                <li className="body-text">• Share only if you choose</li>
+                <li className="body-text">• Share if you choose, with whom you chose</li>
               </ul>
             </div>
           </div>
@@ -195,8 +195,8 @@ export default function Home() {
                   <p className="text-sm text-brand-secondary">Your data never leaves your control</p>
                 </div>
                 <div className="p-4 rounded-lg bg-brand-background">
-                  <h3 className="text-lg font-semibold text-brand-primary mb-2">Offline-first</h3>
-                  <p className="text-sm text-brand-secondary">Works without internet connection</p>
+                  <h3 className="text-lg font-semibold text-brand-primary mb-2">Hardware Encryption</h3>
+                  <p className="text-sm text-brand-secondary">End-to-end encrypted between devices</p>
                 </div>
                 <div className="p-4 rounded-lg bg-brand-background">
                   <h3 className="text-lg font-semibold text-brand-primary mb-2">Simplified Sharing</h3>
@@ -219,9 +219,9 @@ export default function Home() {
       {/* Testimonials Section */}
       <section id="testimonials" className="section-padding bg-brand-background">
         <div className="container-width">
-          <h2 className="heading-2 mb-4 text-center">What Our Early Users Say</h2>
+          <h2 className="heading-2 mb-4 text-center">What Early Users Could Say</h2>
           <p className="body-text text-center mb-12 max-w-2xl mx-auto">
-            Join our growing community of mindful journalers who value privacy and meaningful connections.
+            Join our future community of mindful journalers who value privacy and meaningful connections.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Testimonial 1 */}
@@ -309,14 +309,13 @@ export default function Home() {
               <h3 className="font-semibold text-brand-primary mb-2">Do I need an internet connection?</h3>
               <p className="text-brand-secondary">
                 No, JournalTrove works completely offline. Internet is only needed for syncing with iOS Journal 
-                or when you choose to share entries via JournalBridge.
+                or when you choose to share entries via your personal desktop JournalBridge.
               </p>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Footer with Social Proof */}
+      {/* Footer */}
       <footer id="footer" className="section-padding bg-brand-primary text-white">
         <div className="container-width">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -325,15 +324,6 @@ export default function Home() {
               <p className="text-white/80 mb-4">
                 Your private space for meaningful journaling, enhanced by technology that respects your privacy.
               </p>
-              <div className="flex space-x-4">
-                {/* Social proof badges */}
-                <div className="bg-white/10 px-3 py-1 rounded text-sm">
-                  SOC 2 Type II
-                </div>
-                <div className="bg-white/10 px-3 py-1 rounded text-sm">
-                  GDPR Ready
-                </div>
-              </div>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Features</h3>
