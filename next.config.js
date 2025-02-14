@@ -7,7 +7,7 @@ const nextConfig = {
   },
   // Add basePath and assetPrefix for GitHub Pages
   basePath: '',
-  assetPrefix: './',
+  assetPrefix: '',
 }
 
 module.exports = nextConfig 
