@@ -391,7 +391,7 @@ export default function Home() {
           <p className="body-text mb-8 max-w-2xl mx-auto text-white/90">
             Be among the first to experience JournalTrove. Early access members will receive lifetime benefits and help shape the future of digital journaling.
           </p>
-          <Link href="https://forms.gle/your-google-form" className="inline-block bg-brand-accent hover:bg-brand-accent/90 text-white font-medium py-3 px-8 rounded-lg transition-colors">
+          <Link href="https://forms.zohopublic.com/contactjourna1/form/JournalTroveWaitlistSignup/formperma/eC2IsbiK3N-JhhRz8Y2BVv980_ruGk83XZjkgWynrLw" className="inline-block bg-brand-accent hover:bg-brand-accent/90 text-white font-medium py-3 px-8 rounded-lg transition-colors">
             Join Waitlist
           </Link>
         </div>
