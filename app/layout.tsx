@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Poppins, Lora } from 'next/font/google'
 import './globals.css'
+import Header from './components/Header'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -25,7 +26,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${poppins.variable} ${lora.variable}`}>
-      <body className="bg-brand-background min-h-screen font-sans text-brand-secondary">
+      <body className="bg-brand-background min-h-screen font-sans text-brand-secondary pt-16">
+        <Header />
         {children}
       </body>
     </html>
