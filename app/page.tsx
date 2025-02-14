@@ -105,17 +105,16 @@ export default function Home() {
                 <li className="body-text">• Personalized daily forms</li>
               </ul>
             </div>
-
             {/* Summaries & Insights */}
             <div className="p-6 rounded-lg border border-brand-leather/20 bg-brand-background">
               <div className="mb-4 inline-block p-2 bg-brand-primary/10 rounded-lg">
                 <SparklesIcon className="h-6 w-6 text-brand-primary" />
               </div>
-              <h3 className="heading-3 mb-3 text-brand-primary">AI Insights</h3>
+              <h3 className="heading-3 mb-3 text-brand-primary">Smart Summarization</h3>
               <ul className="space-y-2">
-                <li className="body-text">• Identify patterns in your thoughts</li>
-                <li className="body-text">• Natural language summaries</li>
-                <li className="body-text">• Guides next journaling session</li>
+                <li className="body-text">• Private on-device audio transcription</li>
+                <li className="body-text">• Search through voice & text entries</li>
+                <li className="body-text">• Local processing with your device's hardware</li>
               </ul>
             </div>
           </div>
@@ -391,7 +390,7 @@ export default function Home() {
           <p className="body-text mb-8 max-w-2xl mx-auto text-white/90">
             Be among the first to experience JournalTrove. Early access members will receive lifetime benefits and help shape the future of digital journaling.
           </p>
-          <Link href="https://forms.zohopublic.com/contactjourna1/form/JournalTroveWaitlistSignup/formperma/eC2IsbiK3N-JhhRz8Y2BVv980_ruGk83XZjkgWynrLw" className="inline-block bg-brand-accent hover:bg-brand-accent/90 text-white font-medium py-3 px-8 rounded-lg transition-colors">
+          <Link href="https://forms.zohopublic.com/contactjourna1/form/JournalTroveWaitlistSignup/formperma/eC2IsbiK3N-JhhRz8Y2BVv980_ruGk83XZjkgWynrLw" target="_blank" rel="noopener noreferrer" className="inline-block bg-brand-accent hover:bg-brand-accent/90 text-white font-medium py-3 px-8 rounded-lg transition-colors">
             Join Waitlist
           </Link>
         </div>
