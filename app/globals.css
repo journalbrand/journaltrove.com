@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .container-width {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 sm:py-24;
+  }
+
+  .heading-1 {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-primary;
+  }
+
+  .heading-2 {
+    @apply text-3xl sm:text-4xl font-bold text-brand-primary;
+  }
+
+  .heading-3 {
+    @apply text-2xl sm:text-3xl font-bold text-brand-primary;
+  }
+
+  .body-text {
+    @apply text-lg text-brand-secondary;
+  }
+
+  .button-primary {
+    @apply bg-brand-primary hover:bg-brand-primary/90 text-white font-medium py-3 px-6 rounded-lg transition-colors;
+  }
+
+  .button-secondary {
+    @apply bg-white hover:bg-gray-50 text-brand-primary border border-brand-primary font-medium py-3 px-6 rounded-lg transition-colors;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 255, 255, 255;
